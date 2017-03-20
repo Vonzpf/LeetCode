@@ -1,9 +1,8 @@
 package LeetCode.Java;
 
-import java.lang.reflect.Array;
 
 /**
- * Created on 17/3/20.
+ * Created by Vonzpf on 17/3/20.
  */
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
