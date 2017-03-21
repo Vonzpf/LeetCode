@@ -1,7 +1,7 @@
 package LeetCode.Java;
 
 /**
- * Created by tank on 17/3/21.
+ * Created by Vonzpf on 17/3/21.
  */
 public class LSWRC {
     public int lengthOfLongestSubstring(String s) {
@@ -35,6 +35,7 @@ public class LSWRC {
 
         return maxLength;
     }
+    //判断重复字符
     public int isRepeating(String s, char a){
         for (int j = 0; j < s.length(); j++){
             if(s.charAt(j) == a){
