@@ -1,47 +1,39 @@
 package LeetCode.Java;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Created by Vonzpf on 17/3/21.
  */
 public class LSWRC {
-    public int lengthOfLongestSubstring(String s) {
-        int maxLength = 1;
-        if(s.length() == 0){
-            maxLength = 0;
-        }
-        if(s.length() == 1){
-            maxLength = 1;
-        }
-        if(s.length() > 1){
-            String subString = String.valueOf(s.charAt(0));
-            for (int i = 1; i < s.length(); i++){
-                int j = isRepeating(subString, s.charAt(i));
-                if(j != -1){
-                    subString = s.substring(j + 1);
-                    break;
-                }
-                else {
-                    subString = subString.concat(String.valueOf(s.charAt(i)));
-                    maxLength = subString.length();
-                }
+    /*public int lengthOfLongestSubstring(String s) {
+        if (s.length()==0) return 0;
+        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+        int max=0;
+        for (int i=0, j=0; i<s.length(); ++i){
+            if (map.containsKey(s.charAt(i))){
+                j = Math.max(j,map.get(s.charAt(i))+1);
             }
-            if(subString.length() < s.length()){
-                int temp = lengthOfLongestSubstring(subString);
-                if(temp > maxLength){
-                    maxLength = temp;
-                }
+            map.put(s.charAt(i),i);
+            max = Math.max(max,i-j+1);
+        }
+        return max;
+    }*/
+    public int lengthOfLongestSubstring(String s) {
+        int i = 0, j = 0, max = 0;
+        Set<Character> set = new HashSet<>();
+
+        while (j < s.length()) {
+            if (!set.contains(s.charAt(j))) {
+                set.add(s.charAt(j++));
+                max = Math.max(max, set.size());
+            } else {
+                set.remove(s.charAt(i++));
             }
         }
 
-        return maxLength;
-    }
-    //判断重复字符
-    public int isRepeating(String s, char a){
-        for (int j = 0; j < s.length(); j++){
-            if(s.charAt(j) == a){
-                return j;
-            }
-        }
-        return -1;
+        return max;
     }
 }
