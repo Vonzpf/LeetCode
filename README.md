@@ -4,8 +4,9 @@ This repo is used to do algorithms on LeetCode in order to improve my algorithms
 
 ## Algorithms Solutions
 
-|#             |    Tiele     |   Solution |  ReviewNeeded |
-|------------- | ------------ |------------|------------|
+|#             |    Tiele     |   Solution      |  ReviewNeeded |
+|------------- | ------------ |-----------------|---------------|
 1  |    Two Sum   |[Two Sum](https://github.com/Vonzpf/LeetCode/blob/master/Java/TwoSum.java)||
 3  |Longest Substring Without Repeating Characters|[LSWRC](https://github.com/Vonzpf/LeetCode/blob/master/Java/LSWRC.java)|Need|
-
+461|Hamming Distance|[Hamming Distance](https://github.com/Vonzpf/LeetCode/blob/master/Java/HammingDistance.java)||
+476|Number Complement|[Number Complement](https://github.com/Vonzpf/LeetCode/blob/master/Java/NumberComplement.java)||
