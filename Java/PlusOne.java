@@ -26,8 +26,6 @@ public class PlusOne {
         }
         if (count == digits.length){
             temp[0] = 1;
-            for (int j = 1; j < temp.length; j++)
-                temp[j] = 0;
             return temp;
         }
         return digits;
