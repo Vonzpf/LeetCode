@@ -11,8 +11,10 @@ This repo is used to do algorithms on LeetCode in order to improve my algorithms
 26|[Remove Duplicates From Sorted Array](https://leetcode.com/problemset/algorithms/)|[Remove Duplicates From Sorted Array](https://github.com/Vonzpf/LeetCode/blob/master/Java/RemoveDuplicatesFromSortedArray.java)|Easy|||
 27|[Remove Element](https://leetcode.com/problemset/algorithms/)|[Remove Element](https://github.com/Vonzpf/LeetCode/blob/master/Java/RemoveElement.java)|Easy|Need||
 35|[Search Insert Position](https://leetcode.com/problemset/algorithms/)|[Search Insert Position](https://github.com/Vonzpf/LeetCode/blob/master/Java/SearchInsertPosition.java)|Easy|||
+38|[Count and Say](https://leetcode.com/problemset/algorithms/)|[Count and Say](https://github.com/Vonzpf/LeetCode/blob/master/python/CountandSay.py)|Easy|Need|Need|
 58|[Length of Last Word](https://leetcode.com/problemset/algorithms/)|[Length of Last Word](https://github.com/Vonzpf/LeetCode/blob/master/Java/LengthofLastWord.java)|Easy|||
 66|[Plus One](https://leetcode.com/problemset/algorithms/)|[Plus One](https://github.com/Vonzpf/LeetCode/blob/master/Java/PlusOne.java)|Easy|||
+67|[Add Binary](https://leetcode.com/problemset/algorithms/)|[Add Binary](https://github.com/Vonzpf/LeetCode/blob/master/python/AddBinary.py)|Easy|||
 88|[Merge Sorted Array](https://leetcode.com/problemset/algorithms/)|[Merge Sorted Array](https://github.com/Vonzpf/LeetCode/blob/master/Java/MergeSortedArray.java)|Easy|Need||
 104|[Maximum Depth of Binary Tree](https://leetcode.com/problemset/algorithms/)|[Maximum Depth of Binary Tree](https://github.com/Vonzpf/LeetCode/blob/master/Java/MaxDepthOfBinaryTree.java)|Easy|||
 136|[Single Number](https://leetcode.com/problemset/algorithms/)|[Single Number](https://github.com/Vonzpf/LeetCode/blob/master/Java/SingleNumber.java)|Easy|||
